@@ -1,0 +1,61 @@
+# Path to your oh-my-zsh configuration.
+ZSH=$HOME/.oh-my-zsh
+
+# Colors.
+autoload -U colors
+colors
+setopt prompt_subst
+
+# Ignore duplicates in history.
+setopt hist_ignore_dups
+
+. $ZSH/oh-my-zsh.sh
+. ~/.zsh/prompt
+. ~/.zsh/aliases
+. ~/.zsh/env
+
+# General history related stuff.
+HISTFILE=~/.zsh_history
+HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
+HISTSIZE=1000000
+SAVEHIST=1000000
+setopt extendedglob notify
+setopt append_history
+setopt inc_append_history
+bindkey -e
+
+# Mappings for Ctrl/Option-left-arrow and Ctrl/Option-right-arrow for
+# moving across words.
+bindkey "\e\e[C" forward-word
+bindkey "\e\e[D" backward-word
+
+# Show completion on the first TAB.
+setopt menucomplete
+
+# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/.
+plugins=(
+    brew
+    cloudapp
+    django
+    git
+    git-flow
+    github
+    heroku
+    mercurial
+    osx
+    pip
+    python
+    rails
+    rails3
+    rbenv
+    redis-cli
+    ruby
+    terminalapp
+)
+
+[[ -d "$HOME/.rbenv" ]] && eval "$(rbenv init -)"
+
+if [[ -f `brew --prefix`/share/python/virtualenvwrapper.sh ]]; then
+    . `brew --prefix`/share/python/virtualenvwrapper.sh
+fi
