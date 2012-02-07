@@ -11,7 +11,7 @@ to install that first.)
 
 	curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh@
 
-Many thanks to @bryanveloso for making his dotfiles [public][2] which allowed me to fumble through getting my own working.
+Many thanks to @bryanveloso for making his [dotfiles][2]public which allowed me to fumble through getting my own working.
 
     curl https://raw.github.com/jeffjewiss/dotfiles/master/suit_up.sh | sh
 
@@ -27,8 +27,6 @@ folder. If you don't want to see this in Finder:
 Updating `.files` is as easy as running:
 
     upgrade_dotfiles
-
-## Thanks
 
 [1]: https://github.com/robbyrussell/oh-my-zsh
 [2]: https://github.com/bryanveloso/dot-files
