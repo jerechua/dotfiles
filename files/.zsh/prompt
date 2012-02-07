@@ -5,7 +5,3 @@
 function current_rbenv {
     [ -f .rbenv-version ] && echo " $(rbenv version | awk '{print $1}')"
 }
-
-function current_venv {
-    [ $VIRTUAL_ENV ] && echo ' '`basename $VIRTUAL_ENV`
-}
