@@ -6,7 +6,6 @@
     user = jeffjewiss
 
 [core]
-    editor = subl
     excludesfile = /Users/jeff/.gitignore
     pager = cat
     quotepath = false
