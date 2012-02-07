@@ -8,6 +8,8 @@ function current_rbenv {
 
 # PROMPT='%{$fg_bold[red]%}➜ %{$fg_bold[green]%}%p %{$fg[cyan]%}%c %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%} % %{$reset_color%}'
 
-PROMPT='%{$fg_bold[yellow]%}%c %{$fg_bold[blue]%}➜%{$reset_color%} '
+local smiley="%(?,%{$fg[green]%}☺%{$reset_color%},%{$fg[red]%}☹%{$reset_color%})"
+
+PROMPT='%{$fg_bold[blue]%}➜%{$reset_color%} '
 PROMPT2='\'
-RPROMPT='${emoticon}%{$fg_bold[yellow]%}%~%{$reset_color%}%{$fg_bold[green]%}$(current_rbenv)%{$fg_bold[red]%}$(current_rbenv)%{$reset_color%}$(git-cwd-info.rb)'
+RPROMPT='${smiley}%{$fg_bold[yellow]%}%~%{$reset_color%}%{$fg_bold[green]%}$(current_rbenv)%{$reset_color%}$(git-cwd-info.rb)'

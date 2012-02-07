@@ -37,12 +37,10 @@ setopt menucomplete
 plugins=(
     autojump
     brew
-    cloudapp
     git
     github
     heroku
     osx
-    python
     rails
     rails3
     rbenv
