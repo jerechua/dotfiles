@@ -5,7 +5,7 @@
 # <https://github.com/benhoskings/dot-files/blob/master/clone_and_link.sh>
 
 cd &&
-[ -d '.files' ] || git clone git://github.com/bryanveloso/dotfiles.git .files &&
+[ -d '.files' ] || git clone git://github.com/jeffjewiss/dotfiles.git .files &&
 ls -1d .files/files/* .files/files/.* | while read f; do
     [ "$f" == '.files/files/.' ] ||
     [ "$f" == '.files/files/..' ] ||

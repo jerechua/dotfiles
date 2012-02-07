@@ -37,14 +37,10 @@ setopt menucomplete
 plugins=(
     brew
     cloudapp
-    django
     git
-    git-flow
     github
     heroku
-    mercurial
     osx
-    pip
     python
     rails
     rails3

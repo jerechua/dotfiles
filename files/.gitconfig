@@ -1,9 +1,13 @@
 [user]
-    email = bryan@revyver.com
-	name = Bryan Veloso
+    name = Jeff Jewiss
+    email = jeffjewiss@gmail.com
+
+[github]
+    user = jeffjewiss
+
 [core]
     editor = subl
-    excludesfile = /Users/Bryan/.gitignore
+    excludesfile = /Users/Jeff/.gitignore
     pager = cat
     quotepath = false
     whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
@@ -42,9 +46,13 @@
     autosetupmerge = always
 [merge]
     summary = true
-    tool = opendiff
+    tool = Kaleidoscope
 [rebase]
     autosquash = true
 
-[github]
-    user = bryanveloso
+[difftool "Kaleidoscope"]
+    cmd = ksdiff-wrapper git \"$LOCAL\" \"$REMOTE\"
+[difftool]
+    prompt = false
+[diff]
+    tool = Kaleidoscope
