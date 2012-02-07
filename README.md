@@ -1,5 +1,4 @@
 # dotfiles
-## WIP (broken)
 
 These are my `.files`. They help me keep my life sane when I switch between my
 beloved iMac and MacBook Air.
