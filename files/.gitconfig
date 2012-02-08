@@ -4,6 +4,7 @@
 
 [github]
     user = jeffjewiss
+    . ~/.github_token
 
 [core]
     excludesfile = /Users/jeff/.gitignore
