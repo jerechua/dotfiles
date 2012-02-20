@@ -6,6 +6,7 @@ then
 	# cd into folder and pull
 	echo "Middleman template folder exists."
 	if [ -d ~/.middleman/breakfast ]
+	then
 		echo "Breakfast has been previously installed, updating..."
 		cd ~/.middleman/breakfast && git pull origin master
 		# echo "The Breakfast template has been successfully installed."
