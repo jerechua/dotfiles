@@ -11,7 +11,9 @@ to install that first.)
 
 	curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh@
 
-Many thanks to @bryanveloso for making his [dotfiles][2]public which allowed me to fumble through getting my own working.
+Many thanks to @bryanveloso for making his [dotfiles][2]public, which allowed me to fumble through getting my own working.
+
+Don't run the following unless you're Jeff. You'll need to fork this repo and change the .gitconfig file to have your name, email and github username or this will break your git setup. You can then change the below command to reference your fork of the dotfiles and run the command to install these dotfiles.
 
     curl https://raw.github.com/jeffjewiss/dotfiles/master/suit_up.sh | sh
 

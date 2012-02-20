@@ -20,4 +20,4 @@ else
 fi
 
 echo "You can now start a Breakfast project with the command:"
-echo "$ middleman init -t breakfast"
+echo "$ middleman init [projectname] --template=breakfast"
