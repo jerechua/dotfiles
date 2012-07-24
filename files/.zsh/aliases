@@ -1,6 +1,5 @@
 alias mate="subl"
 alias nano="subl"
-alias glog="git log --format='%Cgreen%h%Creset %C(cyan)%an%Creset - %s' --graph"
 
 # Configuration aliases.
 alias ohmyzsh="subl ~/.oh-my-zsh"
@@ -16,3 +15,6 @@ alias b="bundle"
 
 # Network
 alias whats-my-ip="curl -s checkip.dyndns.org | grep -Eo '[0-9\.]+'"
+
+# Pretty git log
+alias glog="git log --format='%Cgreen%h%Creset %C(cyan)%an%Creset - %s' --graph"
