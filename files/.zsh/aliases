@@ -10,3 +10,9 @@ alias zshconfig="subl ~/.zshrc"
 
 # Use the command line wrapper for Github
 alias git="hub"
+
+# Bundler
+alias b="bundle"
+
+# Network
+alias whats-my-ip="curl -s checkip.dyndns.org | grep -Eo '[0-9\.]+'"
