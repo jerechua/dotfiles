@@ -7,3 +7,6 @@ alias ohmyzsh="subl ~/.oh-my-zsh"
 alias upgrade_dotfiles="~/.files/tools/upgrade.sh"
 alias upgrade_breakfast="~/.files/tools/breakfast.sh"
 alias zshconfig="subl ~/.zshrc"
+
+# Use the command line wrapper for Github
+alias git="hub"
