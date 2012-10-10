@@ -1,14 +1,14 @@
 " Make vim more useful
 set nocompatible
 
+" Enable Pathogen immediately
+call pathogen#infect()
+
 " Set syntax highlighting options.
 set t_Co=256
 set background=dark 
 syntax on
 colorscheme badwolf
-
-" Enabled later, after Pathogen
-filetype off
 
 " Change mapleader
 " let mapleader=","
@@ -116,6 +116,3 @@ if &term == "xterm-ipad"
   inoremap <Leader><Tab> <Tab>
 endif
 
-" Emulate bundles, allow plugins to live independantly. Easier to manage.
-call pathogen#runtime_append_all_bundles()
-filetype plugin indent on
