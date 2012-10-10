@@ -3,6 +3,8 @@ set nocompatible
 
 " Enable Pathogen immediately
 call pathogen#infect()
+syntax on
+filetype plugin indent on
 
 " Set syntax highlighting options.
 set t_Co=256
