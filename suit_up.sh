@@ -11,6 +11,7 @@ ls -1d .files/files/* .files/files/.* | while read f; do
     [ "$f" == '.files/files/..' ] ||
     [ "$f" == '.files/files/.git' ] ||
     [ "$f" == '.files/files/.oh-my-zsh' ] ||
+    [ "$f" == '.files/files/.DS_Store' ] ||
     ln -vsf "$f" .
 done
 
