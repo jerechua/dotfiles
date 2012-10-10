@@ -17,10 +17,14 @@ export DISABLE_AUTO_UPDATE="true"
 plugins=(
     autojump
     brew
+    bundler
     cloudapp
+    gem
     git
     github
     heroku
+    npm
+    node
     osx
     rails
     rails3
