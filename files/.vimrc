@@ -8,7 +8,7 @@ syntax on
 colorscheme badwolf
 
 " Enabled later, after Pathogen
-" filetype off
+filetype off
 
 " Change mapleader
 " let mapleader=","
@@ -88,3 +88,31 @@ set wildmenu " Hitting TAB in command mode will show possible completions above 
 set wildmode=list:longest " Complete only until point of ambiguity.
 set winminheight=0 "Allow splits to be reduced to a single line.
 set wrapscan " Searches wrap around end of file
+
+" Speed up viewport scrolling
+nnoremap <C-e> 3<C-e>
+nnoremap <C-y> 3<C-y>
+
+" Faster split resizing (+,-)
+if bufwinnr(1)
+  map + <C-W>+
+  map - <C-W>-
+endif
+
+" Better split switching (Ctrl-j, Ctrl-k, Ctrl-h, Ctrl-l)
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-H> <C-W>h
+map <C-L> <C-W>l
+
+if &term == "xterm-ipad"
+  nnoremap <Tab> <Esc>
+  vnoremap <Tab> <Esc>gV
+  onoremap <Tab> <Esc>
+  inoremap <Tab> <Esc>`^
+  inoremap <Leader><Tab> <Tab>
+endif
+
+" Emulate bundles, allow plugins to live independantly. Easier to manage.
+call pathogen#runtime_append_all_bundles()
+filetype plugin indent on
