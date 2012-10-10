@@ -2,23 +2,23 @@
 	path = files/.oh-my-zsh
 	url = git://github.com/robbyrussell/oh-my-zsh.git
 [submodule "files/.vim/bundle/ruby.vim"]
-	path = files/.vim/bundles/ruby.vim
+	path = files/.vim/bundle/ruby.vim
 	url = git://github.com/vim-ruby/vim-ruby.git
 [submodule "files/.vim/bundle/slim.vim"]
-	path = files/.vim/bundles/slim.vim
+	path = files/.vim/bundle/slim.vim
 	url = git://github.com/bbommarito/vim-slim.git
 [submodule "files/.vim/bundle/coffeescript.vim"]
-	path = files/.vim/bundles/coffeescript.vim
+	path = files/.vim/bundle/coffeescript.vim
 	url = git://github.com/kchmck/vim-coffee-script.git
 [submodule "files/.vim/bundle/markdown.vim"]
-	path = files/.vim/bundles/markdown.vim
+	path = files/.vim/bundle/markdown.vim
 	url = git://github.com/plasticboy/vim-markdown.git
 [submodule "files/.vim/bundle/rails.vim"]
-	path = files/.vim/bundles/rails.vim
+	path = files/.vim/bundle/rails.vim
 	url = git://github.com/tpope/vim-rails.git
 [submodule "files/.vim/bundle/javascript.vim"]
-	path = files/.vim/bundles/javascript.vim
+	path = files/.vim/bundle/javascript.vim
 	url = git://github.com/pangloss/vim-javascript.git
 [submodule "files/.vim/bundle/powerline.vim"]
-	path = files/.vim/bundles/powerline.vim
+	path = files/.vim/bundle/powerline.vim
 	url = git://github.com/Lokaltog/vim-powerline.git
