@@ -3,6 +3,9 @@ export EDITOR="subl -wf"
 export PATH="$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/share/npm/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/X11/bin:/Applications/Postgres.app/Contents/MacOS/bin:$HOME/.rbenv/bin:$PATH"
 export MANPATH="/usr/local/share/man:/usr/X11/man:/usr/share/man"
 
+# Adjust $PATH
+[[ -d "$HOME/.scripts" ]] && export PATH=$HOME/.scripts:$PATH
+
 # Node.
 export NODE_PATH="/usr/local/lib/node"
 

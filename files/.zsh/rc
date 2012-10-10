@@ -34,6 +34,7 @@ plugins=(
     terminalapp
 )
 
+# Load things
 . $ZSH/oh-my-zsh.sh
 . ~/.zsh/prompt
 . ~/.zsh/aliases

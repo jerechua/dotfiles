@@ -1,16 +1,12 @@
 [user]
     name = Jeff Jewiss
-    email = jeffjewiss@gmail.com
-
+    email = EMAIL
 [github]
     user = jeffjewiss
-
 [core]
-    excludesfile = /Users/jeff/.gitignore
     pager = cat
     quotepath = false
     whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
-
 [alias]
     br = branch
     ci = commit
@@ -18,7 +14,11 @@
     df = diff
     lg = log -p
     st = status
-
+    g = grep -I
+    pb = publish-branch
+    pp = !"echo 'Pull'; git pull; echo 'Push'; git push"
+    rc = rank-contributors
+    sm = show-merges
 [color]
     branch = auto
     diff = auto
@@ -38,7 +38,6 @@
     added = yellow
     changed = green
     untracked = cyan
-
 [apply]
     whitespace = nowarn
 [branch]
@@ -48,7 +47,10 @@
     tool = Kaleidoscope
 [rebase]
     autosquash = true
-
+[url "git://gist.github.com/"]
+  insteadOf = "gist:"
+[url "git@heroku.com:"]
+  insteadOf = "heroku:"
 [difftool "Kaleidoscope"]
     cmd = ksdiff-wrapper git \"$LOCAL\" \"$REMOTE\"
 [difftool]
