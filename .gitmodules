@@ -7,3 +7,21 @@
 [submodule "files/.vim/bundles/ruby.vim"]
 	path = files/.vim/bundles/ruby.vim
 	url = git://github.com/vim-ruby/vim-ruby.git
+[submodule "files/.vim/bundles/slim.vim"]
+	path = files/.vim/bundles/slim.vim
+	url = git://github.com/bbommarito/vim-slim.git
+[submodule "files/.vim/bundles/coffeescript.vim"]
+	path = files/.vim/bundles/coffeescript.vim
+	url = git://github.com/kchmck/vim-coffee-script.git
+[submodule "files/.vim/bundles/markdown.vim"]
+	path = files/.vim/bundles/markdown.vim
+	url = git://github.com/plasticboy/vim-markdown.git
+[submodule "files/.vim/bundles/rails.vim"]
+	path = files/.vim/bundles/rails.vim
+	url = git://github.com/tpope/vim-rails.git
+[submodule "files/.vim/bundles/javascript.vim"]
+	path = files/.vim/bundles/javascript.vim
+	url = git://github.com/pangloss/vim-javascript.git
+[submodule "files/.vim/bundles/powerline.vim"]
+	path = files/.vim/bundles/powerline.vim
+	url = git://github.com/Lokaltog/vim-powerline.git
