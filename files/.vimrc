@@ -66,6 +66,7 @@ set nu " Enable line numbers.
 set ofu=syntaxcomplete#Complete " Set omni-completion method.
 set report=0 " Show all changes.
 set ruler " Show the cursor position
+set runtimepath^=~/.vim/bundle/ctrlp.vim " Use ctrlp fuzzy file search
 set scrolloff=3 " Start scrolling three lines before horizontal border of window.
 set shiftwidth=2 " The # of spaces for indenting.
 set shortmess=atI " Don't show the intro message when starting vim.
@@ -117,4 +118,8 @@ if &term == "xterm-ipad"
   inoremap <Tab> <Esc>`^
   inoremap <Leader><Tab> <Tab>
 endif
+
+" ctrlp command mapping
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
 
