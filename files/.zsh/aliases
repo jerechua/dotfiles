@@ -6,6 +6,7 @@ alias nano="subl"
 alias ohmyzsh="subl ~/.oh-my-zsh"
 alias upgrade_dotfiles="~/.files/tools/upgrade.sh"
 alias upgrade_breakfast="~/.files/tools/breakfast.sh"
+alias wakeup="~/.files/tool/wakeup.sh"
 alias zshconfig="subl ~/.zshrc"
 
 # Dir navigation
