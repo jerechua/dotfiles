@@ -25,3 +25,6 @@
 [submodule "files/.vim/bundle/ctrlp.vim"]
 	path = files/.vim/bundle/ctrlp.vim
 	url = git://github.com/kien/ctrlp.vim.git
+[submodule "files/.vim/bundle/greplace.vim"]
+	path = files/.vim/bundle/greplace.vim
+	url = https://github.com/vim-scripts/greplace.vim.git
