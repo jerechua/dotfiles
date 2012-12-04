@@ -28,3 +28,9 @@
 [submodule "files/.vim/bundle/greplace.vim"]
 	path = files/.vim/bundle/greplace.vim
 	url = https://github.com/vim-scripts/greplace.vim.git
+[submodule "files/.vim/bundle/nerdtree.vim"]
+	path = files/.vim/bundle/nerdtree.vim
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "files/.vim/bundle/vim-surround.vim"]
+	path = files/.vim/bundle/vim-surround.vim
+	url = git://github.com/tpope/vim-surround.git
