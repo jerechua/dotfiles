@@ -62,5 +62,5 @@ setopt menucomplete
 
 # Tmuxinator
 [[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
-export TERM=screen-256color-bce
+export TERM=screen-256color
 
