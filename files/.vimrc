@@ -123,3 +123,5 @@ endif
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
+" NERDTree mappings
+map <F2> :NERDTreeToggle<CR>
