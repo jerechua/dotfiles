@@ -34,3 +34,6 @@
 [submodule "files/.vim/bundle/vim-surround.vim"]
 	path = files/.vim/bundle/vim-surround.vim
 	url = git://github.com/tpope/vim-surround.git
+[submodule "files/.vim/bundle/supertab.vim"]
+	path = files/.vim/bundle/supertab.vim
+	url = git://github.com/ervandew/supertab.git
