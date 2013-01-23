@@ -19,6 +19,7 @@ plugins=(
     brew
     bundler
     cloudapp
+    django
     gem
     git
     github
@@ -26,6 +27,7 @@ plugins=(
     npm
     node
     osx
+    pip
     rails
     rails3
     rbenv
