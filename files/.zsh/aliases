@@ -16,10 +16,6 @@ alias ....='cd ../../..'
 alias ~='cd ~'
 alias ll='tree --dirsfirst -ChFupDaLg 1'
 
-# Use the command line wrapper for Github
-alias git="hub"
-alias g="hub"
-
 # Bundler
 alias b="bundle"
 alias be="bundle exec"
