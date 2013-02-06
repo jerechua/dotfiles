@@ -37,3 +37,6 @@
 [submodule "files/.vim/bundle/supertab.vim"]
 	path = files/.vim/bundle/supertab.vim
 	url = git://github.com/ervandew/supertab.git
+[submodule "files/.vim/bundle/scss.vim"]
+	path = files/.vim/bundle/scss.vim
+	url = https://github.com/cakebaker/scss-syntax.vim.git
