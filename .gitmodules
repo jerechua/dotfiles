@@ -40,3 +40,6 @@
 [submodule "files/.vim/bundle/scss.vim"]
 	path = files/.vim/bundle/scss.vim
 	url = https://github.com/cakebaker/scss-syntax.vim.git
+[submodule "files/.vim/bundle/literate-coffeescript.vim"]
+	path = files/.vim/bundle/literate-coffeescript.vim
+	url = https://github.com/mintplant/vim-literate-coffeescript.git
