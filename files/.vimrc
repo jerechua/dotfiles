@@ -125,3 +125,6 @@ let g:ctrlp_cmd = 'CtrlP'
 
 " NERDTree mappings
 map <F2> :NERDTreeToggle<CR>
+
+" NERDTree settings
+let NERDTreeShowHidden=1
