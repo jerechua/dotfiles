@@ -43,3 +43,6 @@
 [submodule "files/.vim/bundle/literate-coffeescript.vim"]
 	path = files/.vim/bundle/literate-coffeescript.vim
 	url = https://github.com/mintplant/vim-literate-coffeescript.git
+[submodule "files/.vim/bundle/editor-config.vim"]
+	path = files/.vim/bundle/editor-config.vim
+	url = https://github.com/editorconfig/editorconfig-vim.git
