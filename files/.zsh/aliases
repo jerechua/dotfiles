@@ -1,3 +1,6 @@
+# Use Homebrew installed Vim
+alias vim='/usr/local/bin/vim'
+
 # Sublime Text
 alias mate="subl"
 alias nano="subl"
