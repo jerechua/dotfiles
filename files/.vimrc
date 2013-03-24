@@ -119,9 +119,14 @@ if &term == "xterm-ipad"
   inoremap <Leader><Tab> <Tab>
 endif
 
-" ctrlp command mapping
+" Ctrl-P.vim
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_match_window_bottom = 0 " Show at top of window
+let g:ctrlp_jump_to_buffer = 'Et' " Jump to tab AND buffer if already open
+let g:ctrlp_split_window = 1 " <CR> = New Tab
+let g:ctrlp_open_new_file = 't' " Open newly created files in a new tab
+let g:ctrlp_open_multiple_files = 't' " Open multiple files in new tabs
 
 " NERDTree mappings
 map <F2> :NERDTreeToggle<CR>
