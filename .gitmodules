@@ -6,7 +6,7 @@
 	url = git://github.com/vim-ruby/vim-ruby.git
 [submodule "files/.vim/bundle/slim.vim"]
 	path = files/.vim/bundle/slim.vim
-	url = git://github.com/bbommarito/vim-slim.git
+        url = git://github.com/slim-template/vim-slim.git
 [submodule "files/.vim/bundle/coffeescript.vim"]
 	path = files/.vim/bundle/coffeescript.vim
 	url = git://github.com/kchmck/vim-coffee-script.git
