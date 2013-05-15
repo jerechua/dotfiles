@@ -52,6 +52,3 @@
 [submodule "files/.vim/bundle/gitgutter.vim"]
 	path = files/.vim/bundle/gitgutter.vim
 	url = git://github.com/airblade/vim-gitgutter.git
-[submodule "files/.scm_breeze"]
-	path = files/.scm_breeze
-	url = https://github.com/ndbroadbent/scm_breeze.git
