@@ -21,7 +21,6 @@ set directory=~/.vim/swaps
 set undodir=~/.vim/undo
 
 " Settings
-set clipboard=unnamed
 set autoindent " Copy indent from last line when starting new line.
 set backspace=indent,eol,start
 set cursorline " Highlight current line
