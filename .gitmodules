@@ -52,3 +52,6 @@
 [submodule "files/.vim/bundle/gitgutter.vim"]
 	path = files/.vim/bundle/gitgutter.vim
 	url = git://github.com/airblade/vim-gitgutter.git
+[submodule "files/.vim/bundle/flake8.vim"]
+	path = files/.vim/bundle/flake8.vim
+	url = https://github.com/nvie/vim-flake8.git
