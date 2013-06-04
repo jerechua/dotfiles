@@ -12,6 +12,7 @@ ls -1d .files/files/* .files/files/.* | while read f; do
     [ "$f" == '.files/files/.git' ] ||
     [ "$f" == '.files/files/.oh-my-zsh' ] ||
     [ "$f" == '.files/files/.DS_Store' ] ||
+    [ "$f" == '.files/files/.git_template' ] ||
     ln -vsf "$f" .
 done
 
