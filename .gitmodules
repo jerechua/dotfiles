@@ -55,3 +55,6 @@
 [submodule "files/.vim/bundle/flake8.vim"]
 	path = files/.vim/bundle/flake8.vim
 	url = https://github.com/nvie/vim-flake8.git
+[submodule "files/.vim/bundle/notes.vim"]
+	path = files/.vim/bundle/notes.vim
+	url = https://github.com/xolox/vim-notes.git
