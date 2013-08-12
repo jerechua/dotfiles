@@ -61,3 +61,6 @@
 [submodule "files/.vim/bundle/misc.vim"]
 	path = files/.vim/bundle/misc.vim
 	url = https://github.com/xolox/vim-misc.git
+[submodule "files/.vim/bundle/jade.vim"]
+	path = files/.vim/bundle/jade.vim
+	url = https://github.com/vim-scripts/jade.vim.git
