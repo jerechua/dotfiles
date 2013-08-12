@@ -1,6 +1,4 @@
-# This zsh prompt is an amalgamation of many different prompts, but isn't
-# that the point?
-#
+# Left and right prompts
 
 function current_rbenv {
     [ -f .rbenv-version ] && echo " $(rbenv version | awk '{print $1}')"
@@ -10,8 +8,8 @@ function current_venv {
     [ $VIRTUAL_ENV ] && echo ' '`basename $VIRTUAL_ENV`
 }
 
-local smiley="%(?,%{$fg[green]%}☺%{$reset_color%},%{$fg[red]%}☹%{$reset_color%})"
+local arrow="%(?,%{$fg[blue]%}➜%{$reset_color%},%{$fg[red]%}➜%{$reset_color%})"
 
-PROMPT='${smiley} %{$fg_bold[yellow]%}%c %{$fg_bold[blue]%}➜%{$reset_color%} '
+PROMPT='${arrow} '
 PROMPT2='\'
 RPROMPT='%{$fg_bold[yellow]%}%~%{$reset_color%}%{$fg_bold[green]%}$(current_venv)%{$fg_bold[red]%}$(current_rbenv)%{$reset_color%}$(git-cwd-info.rb)'
