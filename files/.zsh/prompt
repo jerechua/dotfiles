@@ -8,7 +8,7 @@ function current_venv {
     [ $VIRTUAL_ENV ] && echo ' '`basename $VIRTUAL_ENV`
 }
 
-local arrow="%(?,%{$fg[blue]%}➜%{$reset_color%},%{$fg[red]%}➜%{$reset_color%})"
+local arrow="%(?,%{$fg_bold[blue]%}➜%{$reset_color%},%{$fg_bold[red]%}➜%{$reset_color%})"
 
 PROMPT='${arrow} '
 PROMPT2='\'
