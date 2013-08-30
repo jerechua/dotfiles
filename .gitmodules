@@ -64,6 +64,3 @@
 [submodule "files/.vim/bundle/jade.vim"]
 	path = files/.vim/bundle/jade.vim
 	url = https://github.com/vim-scripts/jade.vim.git
-[submodule "files/.vim/bundle/gist.vim"]
-	path = files/.vim/bundle/gist.vim
-	url = https://github.com/vim-scripts/Gist.vim.git
