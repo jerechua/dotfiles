@@ -32,7 +32,7 @@ set expandtab " Expand tabs to spaces
 set foldcolumn=4 " Column to show folds
 set foldenable
 set foldlevel=2
-" set foldlevelstart=2 " Sets `foldlevel` when editing a new buffer
+set foldlevelstart=2 " Sets `foldlevel` when editing a new buffer
 set foldmethod=syntax " Markers are used to specify folds.
 set foldminlines=0 " Allow folding single lines
 set foldnestmax=3 " Set max fold nesting level
@@ -139,3 +139,6 @@ let NERDTreeShowHidden=1
 if exists('+colorcolumn')
   set colorcolumn=80
 endif
+
+" Run PEP8 every time a python file is written
+autocmd BufWritePost *.py call Flake8()
