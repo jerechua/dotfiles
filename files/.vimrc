@@ -140,5 +140,8 @@ if exists('+colorcolumn')
   set colorcolumn=80
 endif
 
+" Autowrap text in markdown files to 80 characters
+au BufRead,BufNewFile *.md setlocal textwidth=80
+
 " Run PEP8 every time a python file is written
 autocmd BufWritePost *.py call Flake8()
