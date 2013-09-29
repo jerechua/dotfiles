@@ -151,7 +151,7 @@ if has("autocmd")
   autocmd BufNewFile,BufRead *.txt setfiletype text
 
   " Enable soft-wrapping for text files
-  autocmd FileType text,markdown,md,html setlocal wrap linebreak nolist textwidth=80 formatoptions=1
+  autocmd FileType text,markdown,html setlocal wrap linebreak nolist textwidth=80 formatoptions=1
 
 endif
 
