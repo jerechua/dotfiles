@@ -140,5 +140,20 @@ if exists('+colorcolumn')
   set colorcolumn=80
 endif
 
+" soft wrap text in markdown files to the window size
+" hard wrap text to 80 characters using Visual mode and then 'gq'
+if has("autocmd")
+
+  " This is probably in your .vimrc already. No need to duplicate!
+  filetype plugin indent on
+
+  " Set File type to 'text' for files ending in .txt
+  autocmd BufNewFile,BufRead *.txt setfiletype text
+
+  " Enable soft-wrapping for text files
+  autocmd FileType text,markdown,html setlocal wrap linebreak nolist textwidth=80 formatoptions=1
+
+endif
+
 " Run PEP8 every time a python file is written
 autocmd BufWritePost *.py call Flake8()
